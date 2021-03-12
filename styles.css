@@ -217,3 +217,17 @@ footer .main-settings li {
 footer .secondary-settings li {
     padding: 4px 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-flow: column wrap;
+    }
+
+    .main-settings, .secondary-settings {
+        justify-content: center;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
